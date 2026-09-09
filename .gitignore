@@ -1,0 +1,88 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==== Virtual environments ====
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ==== IDE ====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==== Data (không push tin thô lên GitHub) ====
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# GIỮ LẠI: data/gold/ (300 tin có nhãn) — commit lên repo
+
+# ==== Models & weights ====
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+models_cache/
+.cache/
+huggingface_cache/
+
+# ==== Logs & experiments ====
+logs/
+wandb/
+mlruns/
+*.log
+runs/
+
+# ==== Secrets — TUYỆT ĐỐI KHÔNG COMMIT ====
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+config.local.yaml
+
+# ==== OS ====
+Thumbs.db
+Desktop.ini
+
+# ==== Results — chỉ commit final tables/figures ====
+results/tmp/
+results/debug/
