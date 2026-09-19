@@ -1,0 +1,40 @@
+# Danh sách 30 mã cổ phiếu rổ VN30 (cập nhật theo kỳ review gần nhất)
+# Cần Duyên/Đạt xác nhận lại danh sách này khớp với kỳ cơ cấu hiện hành trước khi scrape quy mô lớn
+# Nguồn tham khảo: HOSE / thông báo kỳ review VN30
+
+tickers:
+  - ACB
+  - BCM
+  - BID
+  - BVH
+  - CTG
+  - FPT
+  - GAS
+  - GVR
+  - HDB
+  - HPG
+  - MBB
+  - MSN
+  - MWG
+  - PLX
+  - POW
+  - SAB
+  - SHB
+  - SSB
+  - SSI
+  - STB
+  - TCB
+  - TPB
+  - VCB
+  - VHM
+  - VIB
+  - VIC
+  - VJC
+  - VNM
+  - VPB
+  - VRE
+
+# Ghi chú: rổ VN30 review định kỳ 2 lần/năm (thường tháng 1 và tháng 7).
+# Nghiên cứu chạy 10/2023-03/2026 sẽ trải qua nhiều kỳ review — cần quyết định
+# dùng rổ "cố định tại thời điểm nghiên cứu" hay "rổ tại từng thời điểm lịch sử".
+# Khuyến nghị: dùng rổ TẠI THỜI ĐIỂM MỖI SỰ KIỆN để tránh survivorship bias.

@@ -1,0 +1,25 @@
+=== BÁO CÁO TÍNH KHẢ THI TIMESTAMP — nguồn: cafef ===
+
+Tổng số tin thu thập: 250
+
+Phân bố độ chính xác timestamp:
+  - second_from_url_unverified    :  250 tin (100.0%)
+
+Số tin có timestamp >= độ chính xác PHÚT: 250/250
+Số tin KHÔNG parse được timestamp: 0/250
+
+=== KẾT LUẬN (Tiêu chí nghiệm thu D1: >= 200 tin có timestamp giờ/phút) ===
+✅ ĐẠT. 250 tin có timestamp đủ độ chính xác giờ/phút.
+   → Có thể tiến hành scrape quy mô lớn (D2) và dùng cho event study (Nội dung 4).
+
+=== Mẫu 5 tin đầu tiên (kiểm tra thủ công) ===
+  [second_from_url_unverified] 09/09/2026 09:35 | Loạt rủi ro toàn cầu làm rung chuyển thị trường: Chứng khoán sụt sâu, 
+    URL: https://cafef.vn/loat-rui-ro-toan-cau-lam-rung-chuyen-thi-truong-chung-khoan-sut-sau-gia-dau-nhay-vot-sat-100-usd-trai-phieu-my-tiep-tuc-chiu-ap-luc-188260909093332991.chn
+  [second_from_url_unverified] 09/09/2026 08:00 | Hơn 2,4 triệu cổ phiếu MCH có thể được mua trong kỳ cơ cấu FTSE tháng 
+    URL: https://cafef.vn/hon-24-trieu-co-phieu-mch-co-the-duoc-mua-trong-ky-co-cau-ftse-thang-9-188260908194604621.chn
+  [second_from_url_unverified] 08/09/2026 21:07 | Bỏ quên 1.000 cổ phiếu trong 13 năm, người đàn ông bất ngờ phát hiện đ
+    URL: https://cafef.vn/bo-quen-1000-co-phieu-trong-13-nam-nguoi-dan-ong-bat-ngo-phat-hien-dang-so-huu-khoi-tai-san-hon-104-ty-dong-188260908194028663.chn
+  [second_from_url_unverified] 08/09/2026 17:17 | VN-Index ‘quay xe’ sau cú rơi đầu tuần
+    URL: https://cafef.vn/vn-index-quay-xe-sau-cu-roi-dau-tuan-18826090817053572.chn
+  [second_from_url_unverified] 08/09/2026 1 0:47 | Thấy gì từ động thái rút ròng hơn 90.000 tỷ đồng của khối ngoại trước 
+    URL: https://cafef.vn/thay-gi-tu-dong-thai-rut-rong-hon-90000-ty-dong-cua-khoi-ngoai-truoc-thoi-diem-nang-hang-188260908104642349.chn

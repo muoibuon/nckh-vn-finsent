@@ -1,0 +1,48 @@
+############################################################
+# BÁO CÁO IAA — Đề tài NCKH LLM-VN30
+############################################################
+
+=== KIỂM TRA CHẤT LƯỢNG NHÃN ===
+
+Tổng số tin đã gán (cả 2 người): 210
+
+--- Người 1 (cột 'nhan_1') ---
+  Tin bỏ trống / không hợp lệ: 0
+  Phân bố lớp:
+    tich_cuc    :   65 (31.0%)
+    trung_tinh  :  133 (63.3%)
+    tieu_cuc    :   12 (5.7%)
+
+--- Người 2 (cột 'nhan_2') ---
+  Tin bỏ trống / không hợp lệ: 0
+  Phân bố lớp:
+    tich_cuc    :   45 (21.4%)
+    trung_tinh  :  153 (72.9%)
+    tieu_cuc    :   12 (5.7%)
+
+=== ĐỒNG THUẬN GIỮA 2 NGƯỜI GÁN ===
+
+Số tin dùng để tính đồng thuận (cả 2 nhãn hợp lệ): 210
+
+Nhất trí thô (raw agreement): 144/210 = 68.6%
+Cohen's Kappa (κ): 0.330
+  → Diễn giải: thấp (fair) — CHƯA ĐẠT ngưỡng 0.6
+
+Krippendorff's alpha (α): 0.325
+
+Ma trận nhầm lẫn (hàng = Người 1, cột = Người 2):
+             tieu_cuc  trung_tinh    tich_cuc
+  tieu_cuc          6           6           0
+trung_tinh          6         110          17
+  tich_cuc          0          37          28
+
+Các ô bất đồng lớn nhất (ngoài đường chéo):
+   37 tin: Người 1 gán 'tich_cuc' nhưng Người 2 gán 'trung_tinh'
+   17 tin: Người 1 gán 'trung_tinh' nhưng Người 2 gán 'tich_cuc'
+    6 tin: Người 1 gán 'trung_tinh' nhưng Người 2 gán 'tieu_cuc'
+    6 tin: Người 1 gán 'tieu_cuc' nhưng Người 2 gán 'trung_tinh'
+
+=== TÁCH NHÃN VÀNG / BẤT ĐỒNG ===
+
+Tin NHẤT TRÍ (gold labels): 144
+Tin BẤT ĐỒNG (cần phân xử): 66
